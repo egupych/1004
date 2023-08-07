@@ -89,7 +89,7 @@ let number1 = 1;
 // Функция для анимации числа
 function animateNumber1() {
   // Если число достигло нужного значения, останавливаем анимацию
-  if (number1 >= 12) {
+  if (number1 >= 5) {
     clearInterval(interval1);
   } else {
     // Увеличиваем значение числа на 1 и обновляем текст элемента
@@ -107,12 +107,12 @@ const interval1 = setInterval(animateNumber1, 300);
 const numberElement2 = document.getElementById("number2");
 
 // Устанавливаем начальное значение
-let number2 = 55988;
+let number2 = 1;
 
 // Функция для анимации числа
 function animateNumber2() {
   // Если число достигло нужного значения, останавливаем анимацию
-  if (number2 >= 56000) {
+  if (number2 >= 10) {
     clearInterval(interval2);
   } else {
     // Увеличиваем значение числа на 1 и обновляем текст элемента
@@ -142,7 +142,7 @@ const interval2 = setInterval(animateNumber2, 300);
 
 // const interval3 = setInterval(animateNumber3, 100);
 
-const text = "фильтр на окно для здоровья всей семьи";
+const text = "высококачественные современные дома";
 const delay = 40; // задержка между появлением каждой буквы
 
 const target = document.getElementById('typing-effect');
