@@ -84,12 +84,12 @@ if (animIMGs.length > 0) {
 const numberElement1 = document.getElementById("number1");
 
 // Устанавливаем начальное значение
-let number1 = 1;
+let number1 = 110;
 
 // Функция для анимации числа
 function animateNumber1() {
   // Если число достигло нужного значения, останавливаем анимацию
-  if (number1 >= 5) {
+  if (number1 >= 120) {
     clearInterval(interval1);
   } else {
     // Увеличиваем значение числа на 1 и обновляем текст элемента
@@ -112,7 +112,7 @@ let number2 = 1;
 // Функция для анимации числа
 function animateNumber2() {
   // Если число достигло нужного значения, останавливаем анимацию
-  if (number2 >= 10) {
+  if (number2 >= 7) {
     clearInterval(interval2);
   } else {
     // Увеличиваем значение числа на 1 и обновляем текст элемента
@@ -142,7 +142,7 @@ const interval2 = setInterval(animateNumber2, 300);
 
 // const interval3 = setInterval(animateNumber3, 100);
 
-const text = "высококачественные современные дома";
+const text = "современные дома для жизни на природе ";
 const delay = 40; // задержка между появлением каждой буквы
 
 const target = document.getElementById('typing-effect');
